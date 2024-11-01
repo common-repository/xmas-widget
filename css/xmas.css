@@ -1,0 +1,483 @@
+/*
+ * Xmas Widget
+ */
+
+
+.ftw-container {
+  position:relative;
+  width:100%;
+  height:auto;
+  display:block;
+  clear:both;
+}
+
+.ftw-spacing {
+  padding:25px;
+}
+
+.ftw-footer {
+  width:100%;
+  display:block;
+  margin:0;
+}
+
+.ftw-footer-left {
+  background:url(../images/xmas-footer-left.png) no-repeat top center;
+  height:12px;
+  width:92px;
+  float:left;
+  position:relative;
+  z-index:5;
+}
+
+.ftw-footer-right {
+  background:url(../images/xmas-footer-right.png) no-repeat top center;
+  height:12px;
+  width:92px;
+  float:right;
+  position:relative;
+  z-index:5;
+}
+
+.ftw-body {
+  width:100%;
+  display:block;
+  height:auto;
+  margin:0;
+  padding:0;
+}
+
+.ftw-graphics-right {
+  right:5px;
+}
+
+.ftw-graphics-left {
+  left:5px;
+}
+
+.ftw-graphics-right-bottom {
+  right:5px!important;
+  bottom:5px!important;
+  top:inherit!important;
+}
+
+.ftw-graphics-left-bottom {
+  left:5px!important;
+  bottom:5px!important;
+  top:inherit!important;
+}
+
+.ftw-graphics-tape-1 {
+  position:absolute;
+  top:-10px;
+  right:5px;
+  background:url(../images/xmas-tape-1.png) no-repeat top center;
+  height:65px;
+  width:23px;
+}
+
+.ftw-graphics-tape-2 {
+  position:absolute;
+  top:-15px;
+  right:5px;
+  background:url(../images/xmas-tape-2.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-red {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/xmas-pin-red.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-green {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/xmas-pin-green.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-blue {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/xmas-pin-blue.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-white {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/xmas-pin-white.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-black {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/xmas-pin-black.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-paperclip {
+  position:absolute;
+  top:-10px;
+  right:5px;
+  background:url(../images/xmas-paperclip.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-paperclip-oldschool {
+  position:absolute;
+  top:-20px;
+  right:5px;
+  background:url(../images/xmas-paperclip-oldschool.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pinup {
+  position:absolute;
+  top:-10px;
+  right: 5px;
+  background: url(../images/xmas-pinup.png) no-repeat top center;
+  height: 32px;
+  width: 109px;
+}
+
+.ftw-font-mountains-of-christmas, .ftw-font-mountains-of-christmas p {
+  font-family:'Mountains of Christmas', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-shadows-into-light, .ftw-font-shadows-into-light p {
+  font-family:'Shadows Into Light', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-emilys-candy, .ftw-font-emilys-candy p {
+  font-family:'Emilys Candy', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-irish-grover, .ftw-font-irish-grover p {
+  font-family:'Irish Grover', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-griffy, .ftw-font-griffy p {
+  font-family:'Griffy', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-courgette, .ftw-font-courgette p {
+  font-family:'Courgette', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+div.ftw_snow {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.ftw-container  a {
+  z-index: 99999!important;
+  position: relative!important;
+}
+
+.ftw-body-wrapping-paper-1 {
+  background:url(../images/xmas-body-wrapping-paper-1.png) repeat;
+}
+
+.ftw-body-wrapping-paper-2 {
+  background:url(../images/xmas-body-wrapping-paper-2.png) repeat;
+}
+
+.ftw-body-wrapping-paper-3 {
+  background:url(../images/xmas-body-wrapping-paper-3.png) repeat top center;
+}
+
+.ftw-body-wrapping-paper-4 {
+  background:url(../images/xmas-body-wrapping-paper-4.png) repeat top center;
+}
+
+.ftw-body-wrapping-paper-5 {
+  background:url(../images/xmas-body-wrapping-paper-5.png) repeat top center;
+}
+
+.ftw-body-wrapping-paper-6 {
+  background:url(../images/xmas-body-wrapping-paper-6.png) repeat top center;
+}
+
+.ftw-body-wrapping-paper-7 {
+  background:url(../images/xmas-body-wrapping-paper-7.png) repeat top center;
+}
+
+.ftw-body-wrapping-paper-8 {
+  background:url(../images/xmas-body-wrapping-paper-8.png) repeat top center;
+}
+
+.ftw-body-wrapping-paper-9 {
+  background:url(../images/xmas-body-wrapping-paper-9.png) repeat top center;
+}
+
+.ftw-body-wrapping-paper-10 {
+  background:url(../images/xmas-body-wrapping-paper-10.png) repeat top center;
+}
+
+.ftw-body-wrapping-paper-11 {
+  background:url(../images/xmas-body-wrapping-paper-11.png) repeat top center;
+}
+
+.ftw-body-bokeh-1 {
+  background:url(../images/xmas-body-bokeh-1.jpg) repeat top center;
+}
+
+.ftw-body-bokeh-2 {
+  background:url(../images/xmas-body-bokeh-2.png) repeat top center;
+}
+
+.ftw-graphics-xmas-pin-1 {
+  position:absolute;
+  top:-10px;
+  right:5px;
+  background:url(../images/xmas-pin-1.png) no-repeat top center;
+  height:65px;
+  width:45px
+}
+
+.ftw-graphics-xmas-pin-2 {
+  position:absolute;
+  top:-10px;
+  right:5px;
+  background:url(../images/xmas-pin-2.png) no-repeat top center;
+  height:65px;
+  width:45px
+}
+
+.ftw-graphics-xmas-pin-3 {
+  position:absolute;
+  top:-10px;
+  right:5px;
+  background:url(../images/xmas-pin-3.png) no-repeat top center;
+  height:65px;
+  width:45px
+}
+
+.ftw-graphics-xmas-pin-4 {
+  position:absolute;
+  top:-10px;
+  right:-5px;
+  background:url(../images/xmas-pin-4.png) no-repeat top center;
+  height:65px;
+  width:45px
+}
+
+.ftw-graphics-xmas-pin-5 {
+  position:absolute;
+  top:-10px;
+  right:-5px;
+  background:url(../images/xmas-pin-5.png) no-repeat top center;
+  height:65px;
+  width:45px
+}
+
+.ftw-graphics-xmas-pin-6 {
+  position:absolute;
+  top:5px;
+  right:-2px;
+  background:url(../images/xmas-pin-6.png) no-repeat top center;
+  height:65px;
+  width:65px
+}
+
+.ftw-graphics-xmas-pin-7 {
+  position:absolute;
+  top:5px;
+  right:-2px;
+  background:url(../images/xmas-pin-7.png) no-repeat top center;
+  height:65px;
+  width:65px
+}
+
+.ftw-graphics-xmas-pin-8 {
+  position:absolute;
+  top:-20px;
+  right:5px;
+  background:url(../images/xmas-pin-8.gif) no-repeat top center;
+  height:71px;
+  width:43px
+}
+
+
+.ftw-graphics-xmas-pin-9 {
+  position:absolute;
+  top:-20px;
+  right:5px;
+  background:url(../images/xmas-pin-9.png) no-repeat top center;
+  height:65px;
+  width:65px
+}
+
+.ftw-graphics-xmas-pin-10 {
+  position:absolute;
+  top:-20px;
+  right:5px;
+  background:url(../images/xmas-pin-10.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-11 {
+  position:absolute;
+  top:-20px;
+  right:5px;
+  background:url(../images/xmas-pin-11.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-12 {
+  position:absolute;
+  top:-20px;
+  right:5px;
+  background:url(../images/xmas-pin-12.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-13 {
+  top:-35px;
+  right:5px;
+  position:absolute;
+  background:url(../images/xmas-pin-13.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-14 {
+  top:-5px;
+  right:5px;
+  position:absolute;
+  background:url(../images/xmas-pin-14.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-15 {
+  top:-30px;
+  right:5px;
+  position:absolute;
+  background:url(../images/xmas-pin-15.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-16 {
+  top:-5px;
+  right:5px;
+  position:absolute;
+  background:url(../images/xmas-pin-16.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-17 {
+  top:-5px;
+  right:5px;
+  position:absolute;
+  background:url(../images/xmas-pin-17.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-18 {
+  top:-5px;
+  right:5px;
+  position:absolute;
+  background:url(../images/xmas-pin-18.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-19 {
+  top:-5px;
+  right:5px;
+  position:absolute;
+  background:url(../images/xmas-pin-19.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+.ftw-graphics-xmas-pin-20 {
+  top:-5px;
+  right:5px;
+  position:absolute;
+  background:url(../images/xmas-pin-20.png) no-repeat top center;
+  height:64px;
+  width:64px
+}
+
+
+.ftw-snow-footer-3 .ftw-footer {
+  background:url(../images/xmas-snow-big.png) repeat bottom center;
+  height: 30px;
+  margin: -30px 0 0;
+}
+
+.ftw-snow-footer-3 .ftw-footer-left, .ftw-snow-footer-3 .ftw-footer-right {
+  margin-top: 30px
+}
+
+.ftw-snow-footer-3 .ftw-spacing {
+  margin-bottom: 20px
+}
+
+.ftw-snow-footer-2 .ftw-footer {
+  background:url(../images/xmas-snow-medium.png) repeat bottom center;
+  height: 30px;
+  margin: -40px 0 0;
+}
+
+.ftw-snow-footer-2 .ftw-footer-left, .ftw-snow-footer-2 .ftw-footer-right {
+  margin-top: 30px
+}
+
+.ftw-snow-footer-2 .ftw-spacing {
+  margin-bottom: 20px
+}
+
+.ftw-snow-footer-1 .ftw-footer {
+  background:url(../images/xmas-snow-small.png) repeat bottom center;
+  height: 30px;
+  margin: -50px 0 0;
+}
+
+.ftw-snow-footer-1 .ftw-footer-left, .ftw-snow-footer-1 .ftw-footer-right {
+  margin-top: 30px
+}
+
+.ftw-snow-footer-1 .ftw-spacing {
+  margin-bottom: 20px
+}

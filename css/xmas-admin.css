@@ -1,0 +1,52 @@
+/*
+ * Xmas Widget
+ * (c) Web factory Ltd, 2015
+ */
+
+
+.xmas-widget-container label {
+  width: 115px;
+  display: inline-block;
+}
+
+.xmas-widget-container {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.xmas-widget-container select, .xmas-widget-container input.standard-text {
+  min-width: 230px;
+  max-width: 325px;
+  width: 100%;
+}
+
+.xmas-widget-container .iris-picker {
+  position: absolute !important;
+  z-index: 99;
+}
+
+.xmas-widget-container div.iris-picker.iris-border {
+  border: 1px solid black;
+}
+
+.xmas_title {
+  color: #EE0000;
+}
+
+.xmas-widget-container .color_fix {
+  height: 30px;
+}
+
+.xmas-widget-container .color_fix label {
+  margin-bottom: 18px;
+}
+
+.xmas-widget-container .color_fix .wp-picker-container {
+  margin-top: 3px;
+}
+
+.xmas-widget-container input:required:invalid, .xmas-widget-container textarea:required:invalid {
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-color: #D54E21;
+}
